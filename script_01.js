@@ -48,10 +48,25 @@
 // let test = "Max"; // Deklaration + Wetzuweisung
 // test = "Maxine";
 
-const test = "Max"; // Variable mit KONSTANTEM Inhalt
+// const test = "Max"; // Variable mit KONSTANTEM Inhalt
 // test = "Maxine"; // KEINE neue Zuweisung zur LZ möglich! --> Fehler
 
-console.log("Inhalt: " + test);
+// console.log("Inhalt: " + test);
+
+/***** 04 Beispiel - Berechnung *******/
+
+// Deklaration
+const birthYearJohn = 2000;
+const birthYearMark = 1990;
+let ageJohn, ageMark;
+
+ageJohn = 2023 - birthYearJohn;
+ageMark = 2023 - birthYearMark;
+
+// Ausgabe
+console.log("ageJohn: " + ageJohn);
+console.log("ageMark: " + ageMark);
+
 
 
 
