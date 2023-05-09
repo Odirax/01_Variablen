@@ -40,6 +40,20 @@
 // test = 2; // number
 // test = true; // boolean
 
+
+// console.log("Datentyp: " + typeof test);
+// console.log("Inhalt: " + test);
+
+/***** 03a Konstanten *******/
+
+// let test = "Max"; // Deklaration + Wetzuweisung
+// test = "Maxine";
+
+// const test = "Max"; // Variable mit KONSTANTEM Inhalt
+// test = "Maxine"; // KEINE neue Zuweisung zur LZ möglich! --> Fehler
+
+// console.log("Inhalt: " + test);
+
 // console.log("Datentyp: " + typeof test);
 // console.log("Inhalt: " + test);
 
@@ -61,8 +75,12 @@ const birthYearJohn = 2000;
 const birthYearMarc = 1990;
 let ageJohn, ageMarc;
 
-ageJohn = 2023 - birthYearJohn;
-ageMarc = 2023 - birthYearMarc;
+let date = new Date();
+let year = date.getFullYear();
+// console.log(year);
+
+ageJohn = year - birthYearJohn;
+ageMarc = year - birthYearMarc;
 
 // Ausgabe
 console.log("ageJohn: " + ageJohn);
