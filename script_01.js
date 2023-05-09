@@ -85,8 +85,8 @@ ageMark = year - birthYearMark;
 
 
 // Ausgabe
-// console.log("ageJohn: " + ageJohn);
-// console.log("ageMarc: " + ageMarc);
+console.log("ageJohn: " + ageJohn);
+console.log("ageMarc: " + ageMarc);
 
 
 
