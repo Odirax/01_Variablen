@@ -81,6 +81,8 @@ let year = date.getFullYear();
 
 ageJohn = year - birthYearJohn;
 ageMarc = year - birthYearMarc;
+ageMark = year - birthYearMark;
+
 
 // Ausgabe
 console.log("ageJohn: " + ageJohn);
